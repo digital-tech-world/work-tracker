@@ -1,0 +1,7 @@
+
+> backend@1.0.0 start
+> node index.js
+
+◇ injected env (10) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+Dotenv loaded
+Starting Life Dashboard backend...

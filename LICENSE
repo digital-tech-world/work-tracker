@@ -19,3 +19,39 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Open Source Usage Guidelines
+
+### Getting Started
+1. Fork this repository to your own GitHub account
+2. Clone your fork locally: `git clone https://github.com/your-username/life-dashboard.git`
+3. Install dependencies: `./setup.sh`
+4. Configure your credentials in `backend/.env` (see README.md for details)
+5. Run the application: `./start.sh`
+6. Access at: http://localhost:3000
+
+### Contributing
+We welcome contributions! Please:
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a pull request
+
+### Security Note
+For security reasons, never commit your `.env` file containing API keys and tokens.
+This repository includes a `.gitignore` file to prevent accidental commits of sensitive data.
+Always keep your credentials private and environment-specific.
+
+### Customization
+Feel free to modify this dashboard to suit your needs:
+- Add additional service integrations (Slack, Trello, Todoist, etc.)
+- Customize the urgency scoring algorithm
+- Modify the UI/theme to match your preferences
+- Extend functionality with new features
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+*Built with ❤️ using Node.js, Express, React, and Google/GitHub APIs*
