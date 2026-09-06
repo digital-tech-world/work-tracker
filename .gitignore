@@ -39,3 +39,6 @@ Thumbs.db
 backend/.env
 frontend/.env
 frontend/.env.*
+
+# Runtime and local data files
+**/data/*
